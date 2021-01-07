@@ -1,0 +1,306 @@
+html,body{
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+    overflow-x: hidden;
+    
+}
+
+.total
+{
+    background-color:#fff ;
+    
+}
+
+.navbar
+{
+    height: 50px;
+}
+
+.name
+{
+    font-family: 'Dancing Script', cursive;
+}
+
+.title-img
+{
+    width:100%;
+    height:auto;
+}
+
+.intro
+{
+    background-color: #edc988;
+    text-align: center;
+    font-size: 80px;
+}
+ 
+.intro-img
+{
+    width:100%;
+}
+
+.first-line
+{
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 60px;
+   
+}
+
+.second-line, .third-line
+{
+    font-size: 25px;
+    font-family: 'Poiret One'; 
+    margin-left:30px;  
+    margin-right: 20px; 
+    text-align: justify;
+}
+
+.skill-head
+{
+   
+    font-family: 'Poiret One'; 
+    font-size: 35px;
+    color:#db6400;
+    background-color: #f2efea;
+    margin-top: 25px;
+    margin-left:25px;
+
+}
+
+.list
+{
+    font-family: 'Josefin Slab', serif;
+    padding-left: 65px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+
+.second-img
+{
+    width:100%;
+}
+
+.third-element
+{
+    margin:-27px;
+    padding:-27px;
+}
+
+@media (max-width:786px)
+{
+   .second-line
+   {
+       text-align: center;
+   }
+   .third-line
+   {
+       text-align: center;
+   }
+   .list{
+       text-align: center;
+   }
+  .edu-ele-1
+  {
+    text-align: center;
+}
+  .edu-ele-2
+  {
+    text-align: center;
+}
+  .edu-ele-3
+  {
+    text-align: center;
+}
+}
+
+.edu-ele-1
+{
+    padding-top:100px;
+    margin-left:40px;
+   
+}
+.edu-ele-2
+{
+    padding-top:30px;
+    margin-left:40px;
+   
+}
+.edu-ele-3
+{
+    padding-top:30px;
+    margin-left:40px;
+   
+}
+
+.time 
+{
+    font-family: 'Poiret One';
+    font-size:35px;
+    color:#db6400;
+}
+
+.specification
+{
+    font-size: 25px;
+    font-family: 'Poiret One'; 
+    
+}
+
+.institute
+{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color:#495464;
+}
+
+.achieve
+{
+    margin-top:30px;
+    margin-left:25px;
+    font-family: 'Poiret One'; 
+    font-size: 30px;
+    color:#db6400;
+    background-color: #f2efea;
+}
+
+.second-list
+{
+    font-family: 'Josefin Slab', serif;
+    padding-left: 65px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-image
+{
+    width:100%;
+}
+
+.first-card
+{
+    position: relative;
+    top: 120px;
+}
+.second-card
+{
+    position: relative;
+    top: 150px;
+}
+.third-card
+{
+    position: relative;
+    top: 180px;
+}
+
+.contact{
+    padding: 4%;
+    padding-top: 150px;
+   
+    height: 400px;
+    
+}
+.col-md-3{
+    background: #92817a;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.hello
+{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #f6830f;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+.last-list {
+    padding-top: 15px;;
+    list-style: none;
+    display: flex
+}
+
+.social-icon {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 27px;
+    margin-right: 11px;
+    cursor: pointer
+}
+.social-twitter {
+    background-color: #55acee
+}
+
+.social-facebook {
+    background-color: #3b5999
+}
+
+.social-linkedin {
+    background-color: #0077B5
+}
+
+.social-google {
+    background-color: #dd4b39
+}
+
+.social-instagram {
+    background-color: #dd4b39
+}
+
+.social-icon i {
+    transition: 0.4s all
+}
+
+.social-icon:hover i {
+    transform: scale(1.4)
+}
+
+.footer {
+    margin-top: auto;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    text-align:center;
+    background-color:#dedede
+}
